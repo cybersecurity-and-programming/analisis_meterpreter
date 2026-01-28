@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-#from argparse import ArgumentParser
 from scapy.all import sniff, TCP
 from Crypto.Cipher import AES
 from Crypto.PublicKey import RSA
