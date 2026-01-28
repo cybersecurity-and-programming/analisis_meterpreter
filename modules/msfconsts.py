@@ -1,3 +1,4 @@
+#script original: https://gitlab.com/0xdf/ctfscripts/-/tree/master?ref_type=heads
 TLV_META_TYPE_NONE         = 0
 TLV_META_TYPE_STRING       = (1 << 16)
 TLV_META_TYPE_UINT         = (1 << 17)
