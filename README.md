@@ -11,8 +11,11 @@ Su objetivo es ofrecer una herramienta ligera y comprensible para analistas que 
 
 ✨ Características principales
 Detección y parsing de tráfico asociado a Meterpreter
+
 Identificación de comandos y fases de interacción
+
 Visualización clara de eventos relevantes
+
 Pensado para entornos de DFIR y análisis educativo
 
 La siguiente imagen muestra la ejecución de la herramienta analisis_meterpreter.py en un entorno Kali Linux, durante una simulación de respuesta ante incidentes basada en la máquina Response de Hack The Box.
@@ -32,8 +35,11 @@ Una vez reconstruido el flujo TCP y extraídos los datos cifrados, la herramient
 El archivo resultante contiene la secuencia completa de paquetes TLV tal y como fueron transmitidos, sin decodificación adicional. Este enfoque permite:
 
   Revisar manualmente la estructura de cada mensaje.
+  
   Identificar tipos de TLV asociados a acciones concretas (por ejemplo, TLV_TYPE_COMMAND_ID, TLV_TYPE_PROCESS_HANDLE, etc.).
+  
   Correlacionar la actividad observada con el comportamiento del atacante.
+  
   Facilitar análisis posteriores con herramientas externas o scripts personalizados.
 
 Este volcado en crudo es especialmente útil en escenarios donde se requiere validar la integridad del tráfico, reconstruir la línea temporal de comandos o documentar la interacción del atacante durante un incidente.
