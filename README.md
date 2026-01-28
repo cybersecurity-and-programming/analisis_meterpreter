@@ -5,6 +5,7 @@ Aplicación forense diseñada para analizar, clasificar y visualizar tráfico ge
 El proyecto ha sido testeado en entornos reales de entrenamiento, incluyendo:
 
 La máquina Response de Hack The Box
+
 El challenge Shadow of the Undead
 
 Su objetivo es ofrecer una herramienta ligera y comprensible para analistas que necesiten estudiar tráfico malicioso sin depender de soluciones complejas o propietarias.
