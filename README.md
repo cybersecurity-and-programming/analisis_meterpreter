@@ -53,7 +53,9 @@ Finalmente, la herramienta permite extraer paquetes específicos utilizando clav
 Tras finalizar la sesión, se inspecciona el contenido del archivo de salida mediante zipinfo, lo que revela la presencia de múltiples artefactos relevantes:
 
   Archivos de configuración (.vimrc, .tmux.conf)
+  
   Claves de acceso (authorized_keys)
+  
   Capturas de pantalla y archivos HTML
 
 Esta etapa confirma que el payload Meterpreter no solo estableció una sesión interactiva, sino que también permitió la exfiltración de datos sensibles desde el sistema comprometido. La herramienta facilita esta validación al preservar la estructura original de los archivos y permitir su inspección directa.
