@@ -55,10 +55,11 @@ Esta etapa confirma que el payload Meterpreter no solo estableció una sesión i
 <img src="assets/3.png" width="700">
 </p>
 
+Tamaño sin comprimir: 1280672 bytes
+Artefactos clave: authorized_keys, Screenshot.png, bookmarks.html
 Resumen del contenido extraído:
 
   Total de archivos: 6
-  Tamaño sin comprimir: 1280672 bytes
-  Artefactos clave: authorized_keys, Screenshot.png, bookmarks.html
-
+  
+  
 Este tipo de extracción es fundamental en entornos forenses, ya que permite documentar con precisión qué información fue accedida o sustraída durante la sesión maliciosa.
