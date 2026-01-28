@@ -40,3 +40,25 @@ Este volcado en crudo es especialmente útil en escenarios donde se requiere val
 <p align="center">
 <img src="assets/2.png" width="700">
 </p>
+
+Finalmente, la herramienta permite extraer paquetes específicos utilizando claves AES válidas y offsets identificados durante el análisis. En este ejemplo, se utiliza el comando save_package para generar un archivo a partir del tráfico cifrado.
+
+Tras finalizar la sesión, se inspecciona el contenido del archivo de salida mediante zipinfo, lo que revela la presencia de múltiples artefactos relevantes:
+
+  Archivos de configuración (.vimrc, .tmux.conf)
+  Claves de acceso (authorized_keys)
+  Capturas de pantalla y archivos HTML
+
+Esta etapa confirma que el payload Meterpreter no solo estableció una sesión interactiva, sino que también permitió la exfiltración de datos sensibles desde el sistema comprometido. La herramienta facilita esta validación al preservar la estructura original de los archivos y permitir su inspección directa.
+
+<p align="center">
+<img src="assets/3.png" width="700">
+</p>
+
+Resumen del contenido extraído:
+
+Total de archivos: 6
+Tamaño sin comprimir: 1280672 bytes
+Artefactos clave: authorized_keys, Screenshot.png, bookmarks.html
+
+Este tipo de extracción es fundamental en entornos forenses, ya que permite documentar con precisión qué información fue accedida o sustraída durante la sesión maliciosa.
