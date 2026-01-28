@@ -29,7 +29,7 @@ Este escenario reproduce condiciones reales de intrusión y demuestra la capacid
 
 Una vez reconstruido el flujo TCP y extraídos los datos cifrados, la herramienta genera un volcado en crudo del contenido TLV (Type‑Length‑Value) utilizado por Meterpreter para estructurar sus mensajes internos. Este formato es característico del framework y permite identificar con precisión los comandos intercambiados entre el agente comprometido y el servidor de control.
 
-El archivo resultante (msf.raw) contiene la secuencia completa de paquetes TLV tal y como fueron transmitidos, sin decodificación adicional. Este enfoque permite
+El archivo resultante contiene la secuencia completa de paquetes TLV tal y como fueron transmitidos, sin decodificación adicional. Este enfoque permite.
 
   Revisar manualmente la estructura de cada mensaje
   Identificar tipos de TLV asociados a acciones concretas (por ejemplo, TLV_TYPE_COMMAND_ID, TLV_TYPE_PROCESS_HANDLE, etc.)
