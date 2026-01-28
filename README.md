@@ -1,5 +1,5 @@
-# analisis_meterpreter
-🕵️‍♂️ Forensic Meterpreter Traffic Analyzer
+# 🕵️‍♂️ Forensic Meterpreter Traffic Analyzer
+
 Aplicación forense diseñada para analizar, clasificar y visualizar tráfico generado por sesiones Meterpreter. Permite identificar patrones, comandos y comportamientos característicos del payload, facilitando investigaciones de intrusión y ejercicios de respuesta ante incidentes.
 
 El proyecto ha sido testeado en entornos reales de entrenamiento, incluyendo:
