@@ -37,3 +37,6 @@ El archivo resultante (msf.raw) contiene la secuencia completa de paquetes TLV t
   Facilitar análisis posteriores con herramientas externas o scripts personalizados
 
 Este volcado en crudo es especialmente útil en escenarios donde se requiere validar la integridad del tráfico, reconstruir la línea temporal de comandos o documentar la interacción del atacante durante un incidente.
+<p align="center">
+<img src="assets/2.png" width="700">
+</p>
